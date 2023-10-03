@@ -1,0 +1,5 @@
+.code-workspace.code-workspace
+.vscode/
+*.o
+a.out
+*main.c
