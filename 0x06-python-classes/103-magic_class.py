@@ -8,7 +8,7 @@ import math
 class MagicClass:
     """Represent a circle."""
 
-    def __init__(self, radius=0):
+    def __init__(self, radius):
         """Initialize a MagicClass.
 
         Arg:
