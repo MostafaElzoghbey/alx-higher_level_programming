@@ -1,1 +1,1 @@
-# Python ALX tasks
+# 0x09. Python - Everything is object
