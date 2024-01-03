@@ -1,5 +1,10 @@
--- creates the table id_not_null on your MySQL server.
--- * id_not_null description:
--- * id INT with the default value 1 and must be unique
--- * name VARCHAR(256)
-CREATE TABLE IF NOT EXISTS id_not_null (id INT unique default 1, name VARCHAR(256));
+-- Write a script that creates the database hbtn_0d_usa and
+-- the table states(in the database hbtn_0d_usa) on your MySQL server.
+-- * states description:
+-- * id INT unique, auto generated, can’t be null and is a primary key
+-- * name VARCHAR(256) can’t be null
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+CREATE TABLE IF NOT EXISTS hbtn_0d_usa.states (
+	id INT unique NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR(256) NOT NULL
+);
