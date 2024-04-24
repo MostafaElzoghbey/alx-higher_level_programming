@@ -13,7 +13,6 @@ def pascal_triangle(n):
     pascal_list = []
     for i in range(n):
         pascal_list.append([1 for j in range(i + 1)])
-    for i in range(n):
         if i == 0 or i == 1:
             continue
         for j in range(n - 1):
